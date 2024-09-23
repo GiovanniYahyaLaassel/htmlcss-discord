@@ -2,11 +2,17 @@
 *{
     box-sizing: border-box;
     margin: 0 auto;
+    padding: 0;
 }
-/* layout-header */
+a{
+    color: currentColor;
+    text-decoration: none;
+}
 ul,li{
     list-style: none;
 }
+/* layout-header */
+
 .main-header{
     background-color: rgb(12, 227, 227);
     padding:15px 90px;   
@@ -24,6 +30,10 @@ ul,li{
 }
 
 /* main and section layout */
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
 .layout-section{
     background-color: rgb(0, 14, 144);
 }
