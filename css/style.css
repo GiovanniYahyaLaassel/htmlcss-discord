@@ -54,24 +54,24 @@ ul,li{
     flex-wrap: wrap;
     
 }
-.box{
+.col{
     width: 650px;
     height: 250px;
 }
-.box-70{
+.col-70{
     background-color: rgb(103, 130, 240);
     width: calc(100% / 3 * 2)
     
 }
-.box-30{
+.col-30{
     background-color: pink;
     width: calc(100% / 3);
 }
-.box-40{
+.col-40{
     width: 40%;
     background-color: rgb(219, 136, 164);
 }
-.box-15{
+.col-15{
     width: 15%;
     background-color: rgb(39, 168, 132);
 }
