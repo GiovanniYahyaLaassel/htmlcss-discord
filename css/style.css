@@ -4,6 +4,9 @@
     margin: 0 auto;
     padding: 0;
 }
+body{
+    font-family: "Poppins",
+}
 a{
     color: currentColor;
     text-decoration: none;
@@ -11,9 +14,13 @@ a{
 ul,li{
     list-style: none;
 }
+
 /* THE UTILITIES */
 .white-texts{
     color: white;
+}
+.access-button, .mac-download{
+    background-color: white;
 }
 
 /* layout-header */
@@ -30,11 +37,11 @@ ul,li{
     display: flex;
     gap: 30px;
 }
-.layout-button{
-    border-radius: 15px;
-    background-color: white;
-    padding: 5px;
+.access-button{
+    border-radius: 18px;
+    padding: 8px;
 }
+
 /* main and section layout */
 .container{
     max-width: 900px;
@@ -45,8 +52,17 @@ ul,li{
    background-size: cover;
    background-position: center;
    padding: 60px;
- 
 }
+
+/* button for setting */
+.mac-download, .open-browser{
+    border-radius: 20px;
+    padding: 12px;
+}
+.open-browser{
+    background-color: black;
+}
+
 .bg-white{
     background-color: white;
 }
@@ -57,8 +73,7 @@ ul,li{
     width: 500px;
     height: 250px;
     display: flex;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap;  
 }
 /* layout-hero */
 .title{
