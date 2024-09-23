@@ -1,0 +1,91 @@
+/* RESET */
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+/* layout-header */
+ul,li{
+    list-style: none;
+}
+.main-header{
+    background-color: rgb(12, 227, 227);
+    padding:15px 90px;   
+}
+.layout-nav{
+     border: 2px dotted black;
+    background-color: rgb(216, 185, 9);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-list{
+    display: flex;
+    gap: 30px;
+}
+
+/* main and section layout */
+.layout-section{
+    background-color: rgb(0, 14, 144);
+}
+.bg-white{
+    background-color: white;
+}
+.bg-grey{
+    background-color: rgb(185, 174, 174);
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.box{
+    background-color: rgb(228, 118, 215);
+    width: 650px;
+    height: 250px;
+}
+.box-70{
+    background-color: rgb(103, 130, 240);
+    width: calc(100% / 3 * 2)
+    
+}
+.box-30{
+    background-color: pink;
+    width: calc(100% / 3);
+}
+.box-40{
+    width: 40%;
+    background-color: rgb(219, 136, 164);
+}
+.box-15{
+    width: 15%;
+    background-color: rgb(39, 168, 132);
+}
+
+/* box_green */
+.green{
+    background-color: green;
+}
+.bg-black{
+    background-color: black;
+}
+
+/* footer */
+footer{
+    background-color: black;
+    padding:15px 90px;  
+}
+.layout-footer{
+    background-color:  rgb(95, 223, 187);
+    display: flex;
+    justify-content: space-between;
+}
+
+/* debug-rules */
+.debug .row{
+    padding: 20px;
+}
+.debug .row > * {
+    border: 2px dotted black;
+    padding: 16px;
+    min-height: 300px;
+}
