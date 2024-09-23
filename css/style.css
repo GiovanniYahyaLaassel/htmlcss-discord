@@ -74,6 +74,11 @@ ul,li{
 }
 .explanation-sections-bg{
     background-color: white;
+    padding: 20px;
+}
+.explanation-sections-bgrey{
+    background-color: rgb(232, 223, 223);
+    padding: 20px;
 }
 /*
 img layout inside sections */
