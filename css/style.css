@@ -5,7 +5,7 @@
     padding: 0;
 }
 body{
-    font-family: "Poppins",
+    font-family: "Poppins";
 }
 a{
     color: currentColor;
@@ -19,8 +19,14 @@ ul,li{
 .white-texts{
     color: white;
 }
+.black-texts{
+    color: black;
+}
 .access-button, .mac-download{
     background-color: white;
+}
+.title{
+    font-size: 40px;
 }
 
 /* layout-header */
@@ -47,6 +53,19 @@ ul,li{
     max-width: 900px;
     margin: 0 auto; 
 }
+.row{
+    width: 500px;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;  
+}
+.small-container{
+    width: 800px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+   align-content: space-between;
+}
 .main-bg{
    background-image: url(../img/jumbo.png);
    background-size: cover;
@@ -55,7 +74,12 @@ ul,li{
 }
 .explanation-sections-bg{
     background-color: white;
-    padding: 60px;
+}
+/*
+img layout inside sections */
+.item-img{
+    max-width: 100%;
+   
 }
 
 /* button for setting */
@@ -73,28 +97,17 @@ ul,li{
 .bg-grey{
     background-color: rgb(185, 174, 174);
 }
-.row{
-    width: 500px;
-    height: 250px;
-    display: flex;
-    flex-wrap: wrap;  
-}
-/* layout-hero */
-.title{
-    font-size: 40px;
-}
-.col-50{
-    background-color: rgb(103, 130, 240);
-    width: calc(100% / 3 * 2)
+
+.col-60{
+    width: 60%;
     
 }
-.col-30{
-    background-color: pink;
-    width: calc(100% / 3);
+.col-40{
+    color: black;
+    width: 40%;
 }
 .col-40{
     width: 40%;
-    background-color: rgb(219, 136, 164);
 }
 .col-15{
     width: 15%;
