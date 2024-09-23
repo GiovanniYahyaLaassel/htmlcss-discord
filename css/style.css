@@ -53,6 +53,10 @@ ul,li{
    background-position: center;
    padding: 60px;
 }
+.explanation-sections-bg{
+    background-color: white;
+    padding: 60px;
+}
 
 /* button for setting */
 .mac-download, .open-browser{
@@ -79,7 +83,7 @@ ul,li{
 .title{
     font-size: 40px;
 }
-.col-70{
+.col-50{
     background-color: rgb(103, 130, 240);
     width: calc(100% / 3 * 2)
     
