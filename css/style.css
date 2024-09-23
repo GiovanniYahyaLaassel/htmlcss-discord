@@ -10,16 +10,14 @@ a{
 }
 ul,li{
     list-style: none;
+    color: white;
 }
 /* layout-header */
-
 .main-header{
-    background-color: rgb(12, 227, 227);
+    background-color: #255EE9;
     padding:15px 90px;   
 }
 .layout-nav{
-     border: 2px dotted black;
-    background-color: rgb(216, 185, 9);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -28,14 +26,22 @@ ul,li{
     display: flex;
     gap: 30px;
 }
-
+.layout-button{
+    border-radius: 15px;
+    background-color: white;
+    padding: 5px;
+}
 /* main and section layout */
 .container{
     max-width: 900px;
-    margin: 0 auto;
+    margin: 0 auto; 
 }
-.layout-section{
-    background-color: rgb(0, 14, 144);
+.main-bg{
+   background-image: url(../img/jumbo.png);
+   background-size: cover;
+   background-position: center;
+   padding: 60px;
+ 
 }
 .bg-white{
     background-color: white;
@@ -49,7 +55,6 @@ ul,li{
     
 }
 .box{
-    background-color: rgb(228, 118, 215);
     width: 650px;
     height: 250px;
 }
